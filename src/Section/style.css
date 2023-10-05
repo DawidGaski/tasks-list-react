@@ -1,0 +1,38 @@
+.section {
+    background-color: white;
+    border: solid;
+    border-color: hsl(0, 1%, 89%);
+    padding: 5px;
+    margin: 5px 10%
+}
+
+.section__header {
+    border-bottom: solid 1px hsl(0, 1%, 89%);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.section__header--buttons {
+    font-size: medium;
+}
+
+@media (max-width: 767px) {
+    .section__header--buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.section__ul {
+    padding-inline-start: 0px;
+}
