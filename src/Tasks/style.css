@@ -2,6 +2,42 @@
     padding-inline-start: 0px;
 }
 
+.tasks__button {
+    background-color: rgb(18, 114, 18);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.tasks__buttonRemove {
+    background-color: rgb(200, 17, 17);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.tasks__button:hover {
+    background-color: rgb(20, 129, 20);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tasks__buttonRemove:hover {
+    background-color: rgb(218, 18, 18);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tasks__decoration {
+    text-decoration: line-through;
+}
+
 .task__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -13,10 +49,6 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-}
-
-.task__decoration {
-    text-decoration: line-through;
 }
 
 .task__hidden {

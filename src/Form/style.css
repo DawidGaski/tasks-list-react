@@ -11,39 +11,6 @@
     }
 }
 
-
-.form__buttonDone {
-    background-color: rgb(18, 114, 18);
-    border-radius: 10%;
-    border-color: whitesmoke;
-    color: white;
-    width: 40px;
-    height: 40px;
-    transition: 0.5s;
-}
-
-.form__buttonRemove {
-    background-color: rgb(200, 17, 17);
-    border-radius: 10%;
-    border-color: whitesmoke;
-    color: white;
-    width: 40px;
-    height: 40px;
-    transition: 0.5s;
-}
-
-.form__buttonDone:hover {
-    background-color: rgb(20, 129, 20);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.form__buttonRemove:hover {
-    background-color: rgb(218, 18, 18);
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .form__input {
     margin: 10px;
     margin-right: 5px;
