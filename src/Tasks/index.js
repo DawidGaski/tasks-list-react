@@ -1,7 +1,7 @@
 import "./style.css";
 
 const Tasks = (props) => (
-    <ul className="section__ul">
+    <ul className="tasks__item">
         {props.tasks.map(task => (
             <li
                 key={task.id}

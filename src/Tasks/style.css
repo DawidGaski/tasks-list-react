@@ -1,3 +1,7 @@
+.tasks__item {
+    padding-inline-start: 0px;
+}
+
 .task__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
