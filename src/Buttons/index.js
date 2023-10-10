@@ -4,7 +4,7 @@ const Buttons = (props) => {
     if (props.tasks.length === 0) {
         return null
     }
-    return (<div className="section__header--buttons">
+    return (<div className="buttons">
         <button className="buttons__button">
             {props.hideDone ? "Pokaż" : "Ukryj"} ukończone
         </button>
