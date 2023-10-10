@@ -3,7 +3,11 @@ import "./style.css";
 const Tasks = (props) => (
     <ul className="section__ul">
         {props.tasks.map(task => (
-            <li className={`${props.hideDoneTasks && task.done ? "task__hidden" : "task__item"}`}
+            <li
+                key={task.id}
+                className={`${props.hideDoneTasks
+                        && task.done ? "task__hidden"
+                        : "task__item"}`}
             >
                 <button className="form__buttonDone form__buttonDone--click">
                     {task.done ? "✔" : ""}
