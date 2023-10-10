@@ -6,7 +6,7 @@ const Buttons = (props) => {
     }
     return (<div className="section__header--buttons">
         <button className="buttons__button">
-            {props.hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+            {props.hideDone ? "Pokaż" : "Ukryj"} ukończone
         </button>
         <button className="buttons__button"
             disabled={props.tasks.every(({ done }) => done)}
