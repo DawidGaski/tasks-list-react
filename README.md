@@ -4,9 +4,25 @@
 
 Simple app to create tasks list.
 
-## Demo 
+[![Animationtasklistreact.gif](https://i.postimg.cc/gjyNwsSq/Animationtasklistreact.gif)](https://postimg.cc/Pvxm9WkP)
+
+## Demo
 
 https://dawidgaski.github.io/tasks-list-react/
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- BEM Convention
+- Flexbox
+- Grid
+- React JS
+- Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
+- Media Queries
+- Immutability
+- Controlled Components
 
 ## Available Scripts
 
