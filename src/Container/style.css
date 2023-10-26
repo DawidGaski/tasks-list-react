@@ -1,6 +1,5 @@
 .container {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(233, 233, 233);
     display: grid;
     grid-template-rows: 1fr;
     align-items: center;
