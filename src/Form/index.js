@@ -6,7 +6,7 @@ const Form = ({ addNewTask }) => {
   const inputRef = useRef(null);
 
   const focusInput = () => {
-    inputRef.current.focus();
+    if (inputRef.current) inputRef.current.focus();
   };
   focusInput();
 
