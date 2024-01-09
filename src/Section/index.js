@@ -1,4 +1,3 @@
-import React from "react";
 import { Segment, Header } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
