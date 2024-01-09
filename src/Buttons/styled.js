@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Control = styled.div`
+export const StyledButtons = styled.div`
   margin: auto 0;
   display: flex;
   flex-wrap: wrap;
