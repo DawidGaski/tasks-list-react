@@ -6,7 +6,7 @@ export const StyledButtons = styled.div`
   flex-wrap: wrap;
   font-size: medium;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,28 +14,28 @@ export const StyledButtons = styled.div`
 `;
 
 export const Button = styled.button`
-  color: teal;
+  color: ${({ theme }) => theme.color.teal};
   background-color: transparent;
   border: none;
   margin: 0 0 0 20px;
   border-bottom: 1px solid transparent;
-  transition: color 0.5s;
+  transition: filter 0.3s;
 
   &:hover {
-    color: rgb(2, 185, 185);
+    filter: brightness(110%);
     cursor: pointer;
   }
 
   &:active {
-    color: rgb(4, 218, 218);
+    filter: brightness(120%);
   }
 
   &:disabled {
-    color: #ccc;
+    ${({ theme }) => theme.color.silver};
     cursor: not-allowed;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin: 10px;
   }
 `;
