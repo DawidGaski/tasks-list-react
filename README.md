@@ -16,16 +16,21 @@ https://dawidgaski.github.io/tasks-list-react/
 - CSS
 - JavaScript
 - BEM Convention
+- Google Fonts
+- Normalize
 - Flexbox
 - Grid
 - React JS
+- Redux
 - Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
 - Media Queries
 - Immutability
 - Controlled Components
 - Styled Components
-- Theme Provider
-- Custom Hooks
+- Provider
+- Hooks
+- JSON
+- Api request
 
 ## Available Scripts
 
