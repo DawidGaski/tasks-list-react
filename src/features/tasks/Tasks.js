@@ -8,40 +8,23 @@ import { UseTasks } from "../../useTasks";
 
 function Tasks() {
   const {
-    tasks,
-    hideDone,
-    toggleHideDone,
+    // tasks,
+    // hideDone,
+    // toggleHideDone,
     removeTask,
-    toggleTaskDone,
+    // toggleTaskDone,
     setAllDone,
-    addNewTask,
+    // addNewTask,
   } = UseTasks();
 
   return (
     <Container>
       <Header title="Lista Zadań" />
-      <Section
-        title="Dodaj Nowe Zadanie"
-        body={<Form addNewTask={addNewTask} />}
-      />
+      <Section title="Dodaj Nowe Zadanie" body={<Form />} />
       <Section
         title="Lista Zadań"
-        body={
-          <TaskList
-            tasks={tasks}
-            hideDone={hideDone}
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
-        }
-        extraHeaderContent={
-          <Buttons
-            tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
-            setAllDone={setAllDone}
-          />
-        }
+        body={<TaskList removeTask={removeTask} />}
+        extraHeaderContent={<Buttons setAllDone={setAllDone} />}
       />
     </Container>
   );

@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 export const UseTasks = () => {
-  const [hideDone, setHideDone] = useState(false);
   const [tasks, setTasks] = useState(
     JSON.parse(localStorage.getItem("tasks")) || []
   );
@@ -10,23 +9,8 @@ export const UseTasks = () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
-  const toggleHideDone = () => {
-    setHideDone((hideDone) => !hideDone);
-  };
-
   const removeTask = (id) => {
     setTasks((tasks) => tasks.filter((task) => task.id !== id));
-  };
-
-  const toggleTaskDone = (id) => {
-    setTasks((tasks) =>
-      tasks.map((task) => {
-        if (task.id === id) {
-          return { ...task, done: !task.done };
-        }
-        return task;
-      })
-    );
   };
 
   const setAllDone = () => {
@@ -38,24 +22,13 @@ export const UseTasks = () => {
     );
   };
 
-  const addNewTask = (content) => {
-    setTasks((tasks) => [
-      ...tasks,
-      {
-        content,
-        done: false,
-        id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
-      },
-    ]);
-  };
-
   return {
-    tasks,
-    hideDone,
-    toggleHideDone,
+    //  tasks,
+    //  hideDone,
+    //  toggleHideDone,
     removeTask,
-    toggleTaskDone,
+    // toggleTaskDone,
     setAllDone,
-    addNewTask,
+    // addNewTask,
   };
 };
