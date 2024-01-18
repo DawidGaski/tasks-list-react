@@ -11,9 +11,9 @@ function Tasks() {
     // tasks,
     // hideDone,
     // toggleHideDone,
-    removeTask,
+    // removeTask,
     // toggleTaskDone,
-    setAllDone,
+    // setAllDone,
     // addNewTask,
   } = UseTasks();
 
@@ -23,8 +23,8 @@ function Tasks() {
       <Section title="Dodaj Nowe Zadanie" body={<Form />} />
       <Section
         title="Lista Zadań"
-        body={<TaskList removeTask={removeTask} />}
-        extraHeaderContent={<Buttons setAllDone={setAllDone} />}
+        body={<TaskList />}
+        extraHeaderContent={<Buttons />}
       />
     </Container>
   );
