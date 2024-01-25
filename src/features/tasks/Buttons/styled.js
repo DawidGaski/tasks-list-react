@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 export const StyledButtons = styled.div`
   margin: auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: medium;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +29,7 @@ export const Button = styled.button`
   }
 
   &:disabled {
-    ${({ theme }) => theme.color.silver};
+    color: ${({ theme }) => theme.color.silver};
     cursor: not-allowed;
   }
 
