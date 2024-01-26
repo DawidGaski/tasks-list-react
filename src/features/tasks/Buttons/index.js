@@ -7,7 +7,6 @@ import {
   selectAreTasksEmpty,
   selectIsEveryTasksDone,
   selectIsEveryTasksFalse,
-  fetchExampleTasks,
 } from "../tasksSlice";
 import { StyledButtons, Button } from "./styled";
 import { useDispatch, useSelector } from "react-redux";
@@ -40,9 +39,6 @@ const Buttons = () => {
         Odznacz wszystkie
       </Button>
       <Button onClick={() => dispatch(removeAllTasks())}>Usuń wszystkie</Button>
-      <Button onClick={() => dispatch(fetchExampleTasks())}>
-        Pobierz przykładowe zadania
-      </Button>
     </StyledButtons>
   );
 };
