@@ -7,7 +7,7 @@ import {
   selectAreTasksEmpty,
   selectIsEveryTasksDone,
   selectIsEveryTasksFalse,
-} from "../tasksSlice";
+} from "../../tasksSlice";
 import { StyledButtons, Button } from "./styled";
 import { useDispatch, useSelector } from "react-redux";
 

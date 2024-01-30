@@ -1,12 +1,13 @@
 import Buttons from "./Buttons";
 import Form from "./Form";
 import TaskList from "./TaskList";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import Container from "../../common/Container";
-import ExampleButton from "../../common/ExampleButton";
+import Search from "./Search";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import Container from "../../../common/Container";
+import ExampleButton from "../../../common/ExampleButton";
 
-function Tasks() {
+function TasksPage() {
   return (
     <Container>
       <Header title="Lista Zadań" />
@@ -15,6 +16,7 @@ function Tasks() {
         body={<Form />}
         extraHeaderContent={<ExampleButton />}
       />
+      <Section title="Wyszukiwarka" body={<Search />} />
       <Section
         title="Lista Zadań"
         body={<TaskList />}
@@ -24,4 +26,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
