@@ -27,7 +27,7 @@ export default () => {
     <Wrapper>
       <Input
         placeholder="Filtruj zadania"
-        value={query || " "}
+        value={query || ""}
         onChange={onInputChange}
       />
     </Wrapper>
