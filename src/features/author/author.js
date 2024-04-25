@@ -10,20 +10,20 @@ export default () => (
       body={
         <>
           <p>
-            Witam, nazywam się Dawid Gałęski i jako początkujący programista mam
-            zasczyt i przyjemność gościć was w mojej skromnej liście zadań. Moje
-            zainteresowanie programowaniem narodziło się niespełna 2 lata temu,
-            kiedy inspirowany możliwościami jakie daje praca programisty
-            zacząłem zgłębiać temat i natknąłem się na webinnar Youcode na
-            youtube.
+            Nazywam się Dawid Gałęski i jako początkujący programista mam
+            zaszczyt i przyjemność gościć was w mojej skromnej aplikacji{" "}
+            <strong>lista zadań</strong>. Moje zainteresowanie programowaniem
+            narodziło się niespełna 2 lata temu, kiedy inspirowany możliwościami
+            jakie daje praca programisty zacząłem zgłębiać temat i natknąłem się
+            na webinar Youcode na youtube.
           </p>
           <p>
-            Na co dzień zajmuję się handlem, te kilka lat psychicznie wymęczyło
-            mnie niesamowicie, zatem przyszedł czas na zmiany. Wiąże duże
-            nadzieję na pracę w branży IT, zacząłem trochę za późno ale przecież
-            wszystko jest możliwe i ponoć nigdy nie jest za późno. Fascynują
-            mnie podróże zatem praca zdalna wydaje się być stworzona dla osób,
-            które pragną podróżować.
+            Na co dzień zajmuję się handlem, kilka lat w tej branży psychicznie
+            wymęczyło mnie niesamowicie, zatem przyszedł czas na zmiany. Wiążę
+            duże nadzieje na pracę w branży IT, zacząłem trochę za późno ale
+            przecież wszystko jest możliwe i ponoć nigdy nie jest za późno.
+            Fascynują mnie podróże, zatem praca zdalna wydaje się być stworzona
+            dla osób, które pragną podróżować.
           </p>
           <p>
             Po za podróżami, które niewątpliwie odgrywają kluczową rolę w moim
