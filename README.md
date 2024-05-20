@@ -30,7 +30,7 @@ https://dawidgaski.github.io/tasks-list-react/
 - Provider
 - Hooks
 - JSON
-- React Router
+- Redux Router
 
 ## Available Scripts
 
