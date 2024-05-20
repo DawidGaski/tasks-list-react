@@ -8,6 +8,7 @@ import {
 import { List, Item, Content, Button, StyledNavLink } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import searchQueryParameter from "../searchQueryParameter";
+import { toTask } from "../../../../routes";
 
 const TaskList = () => {
   const location = useLocation();
@@ -25,7 +26,7 @@ const TaskList = () => {
             {task.done ? "✔" : ""}
           </Button>
           <Content done={task.done}>
-            <StyledNavLink to={`/zadania/${task.id}`}>
+            <StyledNavLink to={toTask({ id: task.id })}>
               {task.content}
             </StyledNavLink>
           </Content>
