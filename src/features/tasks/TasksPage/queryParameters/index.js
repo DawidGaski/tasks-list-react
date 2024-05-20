@@ -5,8 +5,8 @@ import {
 
 export const useQueryParameter = (keyName) => {
   const location = useLocation();
-  const serchParams = new URLSearchParams(location.search).get(keyName);
-  return serchParams;
+  const searchParams = new URLSearchParams(location.search).get(keyName);
+  return searchParams;
 };
 
 export const useReplaceQueryParameter = () => {
