@@ -4,7 +4,7 @@
 
 Simple app to create tasks list.
 
-[![Animationtasklistreact2.gif](https://i.postimg.cc/jdzsx8h6/Animationtasklistreact2.gif)](https://postimg.cc/6ypszfgT)
+[![Animationtasklistreact3.gif](https://i.postimg.cc/Jz6LMGCj/Animationtasklistreact3.gif)](https://postimg.cc/zygMkDBf)
 
 ## Demo
 
@@ -30,7 +30,7 @@ https://dawidgaski.github.io/tasks-list-react/
 - Provider
 - Hooks
 - JSON
-- Api request
+- React Router
 
 ## Available Scripts
 
