@@ -2,9 +2,15 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 export const StyledNavLink = styled(NavLink)`
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
 
   &.active {
     font-weight: bold;
