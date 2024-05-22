@@ -4,7 +4,7 @@
 
 Simple app to create tasks list.
 
-[![Animationtasklistreact3.gif](https://i.postimg.cc/Jz6LMGCj/Animationtasklistreact3.gif)](https://postimg.cc/zygMkDBf)
+[![Animationtasklistreact4.gif](https://i.postimg.cc/tgTKfJWc/Animationtasklistreact4.gif)](https://postimg.cc/MnC3fWs0)
 
 ## Demo
 
