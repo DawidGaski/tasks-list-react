@@ -1,4 +1,4 @@
-import Author from "./features/author/author";
+import AuthorPage from "./features/AuthorPage";
 import TasksPage from "./features/tasks/TasksPage/index";
 import TaskPage from "./features/tasks/TaskPage/index";
 import Navigation from "./common/Navigation";
@@ -21,7 +21,7 @@ export default () => (
         <TasksPage />
       </Route>
       <Route path={toAuthor()}>
-        <Author />
+        <AuthorPage />
       </Route>
       <Route>
         <Redirect to={toTasks()} />
