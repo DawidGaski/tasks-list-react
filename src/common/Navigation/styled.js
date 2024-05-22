@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
-export const StyledNavLink = styled(NavLink)`
+export const NavigationLink = styled(NavLink)`
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
@@ -17,7 +17,7 @@ export const StyledNavLink = styled(NavLink)`
     color: hsl(20% 82% 43%);
   }
 `;
-export const StyledNavList = styled.ul`
+export const List = styled.ul`
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ export const StyledNavList = styled.ul`
   padding: 20px;
   margin: 0px;
 `;
-export const StyledNavListItem = styled.li`
+export const Item = styled.li`
   margin-left: 30px;
   margin-right: 30px;
 `;
