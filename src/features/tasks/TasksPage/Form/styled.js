@@ -26,3 +26,12 @@ export const Button = styled.button`
     transform: scale(1.1);
   }
 `;
+
+export const Input = styled.input`
+  margin: 10px;
+  margin-right: 5px;
+  padding: 5px;
+  border: solid;
+  border-color: ${({ theme }) => theme.color.alto};
+  border-radius: 2px;
+`;

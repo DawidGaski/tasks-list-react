@@ -1,5 +1,4 @@
-import Input from "../../Input";
-import { Wrapper } from "./styled";
+import { Wrapper, Input } from "./styled";
 import searchQueryParameter from "../searchQueryParameter";
 import {
   useQueryParameter,
